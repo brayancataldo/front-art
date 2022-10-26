@@ -7,11 +7,10 @@ function App() {
     <>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact={true} component={Paleta} />
-          <Route path="/home" component={Paleta} />
-          <Route path="/my-festival" component={Paleta} />
-          <Route path="/paleta" component={Paleta} />
-          <Route path="/linear-gradient" component={LinearGradient} />
+          <Route path="/" exact={true} component={LinearGradient} />
+          <Route path="/home" component={LinearGradient} />
+          <Route path="/gerador-de-degrade" component={LinearGradient} />
+          <Route path="/gerador-de-paleta" component={Paleta} />
         </Switch>
       </BrowserRouter>
     </>
